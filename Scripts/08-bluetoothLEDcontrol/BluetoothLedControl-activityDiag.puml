@@ -1,0 +1,24 @@
+@startuml
+start
+while (Librairie strip pas prete ?) is (vrai)
+endwhile (faux)
+:Initialiser la connexion serie;
+:Réserver espace mémoire pour 200 caractères;
+while()
+if (fin de communication?) then (oui)
+switch (la première lettre de la chaine de caractère tampon est)
+case ( r)
+:Allumer les LED en rouge;
+case (g)
+:Allumer les LED en vert;
+case (b)
+:Allumer les LED en bleu;
+endswitch
+:Mettre à zéro la chaine de caractères tampon;
+else (non)
+endif
+:Ecouter les données provenant du port serie|
+endwhile
+
+stop
+@enduml

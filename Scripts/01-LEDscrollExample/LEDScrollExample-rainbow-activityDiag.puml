@@ -1,0 +1,14 @@
+@startuml
+start
+:Initialiser k à 0;
+repeat
+
+:definir la couleur K à toutes les LEDs;
+:allumer les LEDs;
+:attendre 50 ms;
+:k = k + 2;
+repeat while(k < 255)
+
+
+stop
+@enduml

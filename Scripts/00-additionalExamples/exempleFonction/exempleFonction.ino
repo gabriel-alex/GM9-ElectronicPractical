@@ -11,7 +11,7 @@ void setup() {
 }
 
 void loop() {
-  Serial.println("saisir le diametre du cercle");
+  Serial.println("Saisir le diamètre du cercle:");
   if (Serial.available() > 0) {
                 // read the incoming byte:
                 diametre = Serial.read();

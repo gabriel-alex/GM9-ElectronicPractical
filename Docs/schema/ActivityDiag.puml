@@ -1,0 +1,14 @@
+@startuml
+start
+:Allumer les LEDs;
+:Eviter les obstacles;
+if (obstacles?) then (oui)
+:print red;
+else (non)
+:print not red;
+:This is on defined on
+several **lines**;
+:Allumer les LEDs rouges;
+:nak(o)>
+stop
+@enduml

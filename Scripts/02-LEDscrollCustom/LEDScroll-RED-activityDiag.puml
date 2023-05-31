@@ -1,0 +1,21 @@
+@startuml
+start
+while (Librairie strip pas prete ?) is (vrai)
+endwhile (faux)
+:Eteindre les LED;
+while()
+repeat
+:initialiser tour à 0;
+repeat
+:initialiser led à 0;
+if (led == tour) then (oui)
+:Allumer led en rouge;
+else (non)
+:Etteindre led;
+endif
+repeat while(led < 10)
+repeat while(tour < 10)
+endwhile
+
+stop
+@enduml
