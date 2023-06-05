@@ -12,10 +12,11 @@ bool stringComplete = false;  // whether the string is complete
 void setup() {
   // initialize serial:
   Serial.begin(9600);
-  Serial.println("AT+NAMEBT05-GEN");  // Or use Serial.print("AT+NAMEBT05-GEN\r\n");
+  // modifier le numéro à la fin de la chaine de caractères
+  Serial.println("AT+NAMEBT05-GEN-01"); 
   delay(200);
-  //Serial.println("AT+NAMBBT05-BLE");  // Or use Serial.print("AT+NAMEBT05-BLE\r\n");
-  //delay(200);
+  Serial.println("AT+NAMBBT05-BLE-01");
+  delay(200);
   Serial.println("AT+ROLE0");
   delay(200);
   // reserve 200 bytes for the inputString:
