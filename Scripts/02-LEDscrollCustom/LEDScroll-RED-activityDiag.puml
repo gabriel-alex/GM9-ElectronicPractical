@@ -13,7 +13,9 @@ if (led == tour) then (oui)
 else (non)
 :Etteindre led;
 endif
+:led = led + 1;
 repeat while(led < 10)
+:tour = tour + 1;
 repeat while(tour < 10)
 endwhile
 
