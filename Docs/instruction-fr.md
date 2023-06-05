@@ -26,8 +26,8 @@ Créer un véhicule qui :
 * Ecrire le code pour faire défiler des LEDs rouges ([02-LEDscrollCustom](../Scripts/02-LEDscrollCustom/)) et completer le document réponse  
 * Mesurer une distance avec un capteur ultrasonique  ([03-UltrasonicRanging](../Scripts/03-UltrasonicRanging)) et completer le document réponse  
 * Mesurer une distance avec un capteur ultrasonique  ([04-UltrasonicRanging](../Scripts/03-UltrasonicRanging)) et completer le document réponse  
-* Tester le programme d'évitement des obstacles ([05-ObstacleAvoidance](../Scripts/05-ObstacleAvoidance/05-obstacleAvoidance.ino)) et completer le document réponse  
-* Ajouter des codes couleurs au programme d'évitement d'obstacles (rouge : erreur, orange : obstacle, vert : ok) ([06-ObstacleAvoidanceWithColors](../Scripts/06-obstacleAvoidanceWithColors/)), dessiner le logigramme du programme et completer le document réponse   
+* Tester le programme d'évitement des obstacles et Ajouter des codes couleurs au programme d'évitement d'obstacles (rouge : erreur, orange : obstacle, vert : ok)  ([05-ObstacleAvoidance](../Scripts/05-ObstacleAvoidance/05-obstacleAvoidance.ino)) 
+* ([06-ObstacleAvoidanceWithColors](../Scripts/06-obstacleAvoidanceWithColors/)), dessiner le logigramme du programme et completer le document réponse   
 * Tester la communication bluetooth ([07-bluetoothConnexion](../Scripts/07-bluetoothConnexion/)) avec [Serial Bluetooth Terminal](https://play.google.com/store/apps/details?id=de.kai_morich.serial_bluetooth_terminal&hl=fr&gl=US&pli=1) et completer le document réponse  
 * Modifier le programme pour changer la couleur des led via Bluetooth ([08-bluetoothLEDcontrol](../Scripts/08-bluetoothLEDcontrol/)) et completer le document réponse  
 * Intégrer l'envoi de message dans le programme d'évitement d'obstacle([09-obstacleavoidanceBluetooth](../Scripts/09-ObstacleAvoidanceBluetooth/))    
